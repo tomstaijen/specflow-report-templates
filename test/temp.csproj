@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <RootNamespace>NContracts.WebAutomationTest</RootNamespace>
+    <AssemblyName>NContracts.WebAutomationTest</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+<None Include=".\features\Bulk\Bulk.feature" />
+<None Include=".\features\Bulk\BulkActie.feature" />
+<None Include=".\features\Herdeclareren.feature" />
+<None Include=".\features\Login.feature" />
+<None Include=".\features\NCassoOverzicht.feature" />
+<None Include=".\features\ServiceMonitor.feature" />
+</ItemGroup></Project>

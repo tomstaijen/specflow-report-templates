@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="c:\NControl\NContracts.WebAutomationTest\NContracts.WebAutomationTest.dll" total="21" errors="0" failures="1" not-run="2" inconclusive="0" ignored="0" skipped="0" invalid="2" date="2016-01-30" time="19:24:34">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\z-da-teamcitysvcact" machine-name="NCACCWEB05" user="z-da-teamcitysvcact" user-domain="NCONTROL" />
+  <culture-info current-culture="nl-NL" current-uiculture="en-US" />
+  <test-suite type="Test Project" name="c:\NControl\NContracts.WebAutomationTest\NContracts.WebAutomationTest.dll" executed="True" result="Failure" success="False" time="246.054" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="c:\NControl\NContracts.WebAutomationTest\NContracts.WebAutomationTest.dll" executed="True" result="Failure" success="False" time="245.571" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="NContracts" executed="True" result="Failure" success="False" time="245.559" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="WebAutomationTest" executed="True" result="Failure" success="False" time="245.558" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Features" executed="True" result="Failure" success="False" time="245.558" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Bulk" executed="True" result="Failure" success="False" time="132.600" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="BulkActieFeature" description="BulkActie" executed="True" result="Failure" success="False" time="72.033" asserts="0">
+                            <results>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.AanpassenContractgeldigheidperiodeOpEenJuisteSelectie" description="Aanpassen contractgeldigheidperiode op een juiste selectie" executed="True" result="Success" success="True" time="15.194" asserts="6">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.AanpassenContractgeldigheidperiodeZonderEenGeldigheidOpTeGeven" description="Aanpassen contractgeldigheidperiode zonder een geldigheid op te geven" executed="True" result="Success" success="True" time="11.431" asserts="6">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesActiverenOpEenJuisteSelectie" description="Kies Activeren op een juiste selectie" executed="True" result="Success" success="True" time="10.888" asserts="6">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesActiverenOpEenLegeSelectie" description="Kies Activeren op een lege selectie" executed="False" result="NotRunnable">
+                                <categories>
+                                  <category name="NC-13094" />
+                                  <category name="webautomation" />
+                                </categories>
+                                <reason>
+                                  <message><![CDATA[Category name must not contain ',', '!', '+' or '-']]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesActiverenOpEenNietNumeriekContractNummer" description="Kies Activeren op een niet numeriek contract nummer" executed="True" result="Success" success="True" time="10.928" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesActiverenOpEenOngeldigContractNummer" description="Kies Activeren op een ongeldig contract nummer" executed="False" result="NotRunnable">
+                                <categories>
+                                  <category name="NC-13094" />
+                                  <category name="webautomation" />
+                                </categories>
+                                <reason>
+                                  <message><![CDATA[Category name must not contain ',', '!', '+' or '-']]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesActiverenZonderWaardenOpTeGeven" description="Kies Activeren zonder waarden op te geven" executed="True" result="Success" success="True" time="10.259" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkActieFeature.KiesDeactiverenOpEenJuisteSelectie" description="Kies Deactiveren op een juiste selectie" executed="True" result="Success" success="True" time="12.756" asserts="6">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="BulkFeature" description="Bulk" executed="True" result="Failure" success="False" time="60.562" asserts="0">
+                            <results>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.BekijkHetBulkscherm" description="Bekijk het bulkscherm" executed="True" result="Success" success="True" time="9.706" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.SelecteerAgbsMetEenContractNummer" description="Selecteer agbs met een contract nummer" executed="True" result="Success" success="True" time="10.562" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.SelecteerAgbsMetEenContractNummerZonderActieveContracten" description="Selecteer agbs met een contract nummer zonder actieve contracten" executed="True" result="Success" success="True" time="9.331" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.SelecteerAgbsMetEenInactiefContractNummer" description="Selecteer agbs met een inactief contract nummer" executed="True" result="Success" success="True" time="9.897" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.SelecteerAgbsMetEenOngeldigContractNummer" description="Selecteer agbs met een ongeldig contract nummer" executed="True" result="Success" success="True" time="10.587" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                              </test-case>
+                              <test-case name="NContracts.WebAutomationTest.Features.Bulk.BulkFeature.SelecteerAgbsZonderEenExcelBestandOpTeGeven" description="Selecteer agbs zonder een excel bestand op te geven" executed="True" result="Failure" success="False" time="10.472" asserts="5">
+                                <categories>
+                                  <category name="webautomation" />
+                                </categories>
+                                <failure>
+                                  <message><![CDATA[  Expected: String containing "U heeft geen Excel-bestand geselecteerd"
+  But was:  <string.Empty>
+]]></message>
+                                  <stack-trace><![CDATA[at NContracts.WebAutomationTest.Steps.BulkSteps.ThenAWarningMessageIsShown(String melding) in r:\BuildAgent\work\6e3d940f77bd810e\Source\NControl\NContracts.WebAutomationTest\Steps\BulkSteps.cs:line 55
+at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="HerdeclarerenFeature" description="Herdeclareren" executed="True" result="Success" success="True" time="7.163" asserts="0">
+                        <results>
+                          <test-case name="NContracts.WebAutomationTest.Features.HerdeclarerenFeature.BekijkHetOverzichtInHetHerdeclaratiescherm" description="Bekijk het overzicht in het herdeclaratiescherm" executed="True" result="Success" success="True" time="7.162" asserts="4">
+                            <categories>
+                              <category name="webautomation" />
+                            </categories>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="NCassoOverzichtFeature" description="NCassoOverzicht" executed="True" result="Success" success="True" time="74.147" asserts="0">
+                        <results>
+                          <test-case name="NContracts.WebAutomationTest.Features.NCassoOverzichtFeature.NCassoOverzicht" description="NCasso overzicht" executed="True" result="Success" success="True" time="36.978" asserts="6">
+                            <categories>
+                              <category name="webautomation" />
+                            </categories>
+                          </test-case>
+                          <test-case name="NContracts.WebAutomationTest.Features.NCassoOverzichtFeature.NCassoPeriodes" description="NCasso periodes" executed="True" result="Success" success="True" time="37.166" asserts="5">
+                            <categories>
+                              <category name="webautomation" />
+                            </categories>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="NContractsInloggenFeature" description="NContracts inloggen" executed="True" result="Success" success="True" time="22.963" asserts="0">
+                        <categories>
+                          <category name="webautomation" />
+                        </categories>
+                        <results>
+                          <test-case name="NContracts.WebAutomationTest.Features.NContractsInloggenFeature.LoginVanEenSpecifiekeNcontrolGebruiker" description="Login van een specifieke ncontrol gebruiker" executed="True" result="Success" success="True" time="5.842" asserts="4" />
+                          <test-suite type="ParameterizedTest" name="LoginWordtGeweigerd" description="Login wordt geweigerd" executed="True" result="Success" success="True" time="17.118" asserts="0">
+                            <results>
+                              <test-case name="NContracts.WebAutomationTest.Features.NContractsInloggenFeature.LoginWordtGeweigerd(&quot;J.Doe&quot;,&quot;password&quot;,&quot;De combinatie van gebruikersnaam en wachtwoord is ongeldig.&quot;,null)" executed="True" result="Success" success="True" time="4.666" asserts="1" />
+                              <test-case name="NContracts.WebAutomationTest.Features.NContractsInloggenFeature.LoginWordtGeweigerd(&quot;&quot;,&quot;password&quot;,&quot;U dient uw loginnaam op te geven&quot;,null)" executed="True" result="Success" success="True" time="4.318" asserts="1" />
+                              <test-case name="NContracts.WebAutomationTest.Features.NContractsInloggenFeature.LoginWordtGeweigerd(&quot;&quot;,&quot;&quot;,&quot;U dient uw loginnaam op te geven U dient uw wachtwoord op te geven&quot;,null)" executed="True" result="Success" success="True" time="3.919" asserts="1" />
+                              <test-case name="NContracts.WebAutomationTest.Features.NContractsInloggenFeature.LoginWordtGeweigerd(&quot;Helpdesk&quot;,&quot;&quot;,&quot;U dient uw wachtwoord op te geven&quot;,null)" executed="True" result="Success" success="True" time="4.209" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ServiceMonitorFeature" description="ServiceMonitor" executed="True" result="Success" success="True" time="8.672" asserts="0">
+                        <results>
+                          <test-case name="NContracts.WebAutomationTest.Features.ServiceMonitorFeature.AreTheSchedulersOnline" description="Are the schedulers online" executed="True" result="Success" success="True" time="8.670" asserts="6">
+                            <categories>
+                              <category name="proddeploy" />
+                              <category name="webautomation" />
+                            </categories>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

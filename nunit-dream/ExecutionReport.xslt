@@ -384,7 +384,8 @@ position:relative;
       </xsl:choose>
       <!-- display the stacktrace -->
       <pre>
-        <code class="language-bash">
+        <img src="$testName.png"/>
+        <code class="language-gherkin">
           <xsl:value-of select="nunit:stack-trace" disable-output-escaping="yes"/>
           <!--<xsl:call-template name="br-replace">
             <xsl:with-param name="word" select="nunit:stack-trace"/>

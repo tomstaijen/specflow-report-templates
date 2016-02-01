@@ -364,6 +364,7 @@
   </xsl:template>
 
   <xsl:template match="nunit:failure">
+    <xsl:variable name="testName" select="../@name" />
     <div class="failurePanel">
     <xsl:choose>
       <xsl:when test="not(nunit:message)">N/A</xsl:when>
@@ -382,6 +383,7 @@
         <xsl:with-param name="word" select="nunit:stack-trace"/>
       </xsl:call-template>
     </code>
+    <img src="{$testName}.png" />
     </div>
   </xsl:template>
 
