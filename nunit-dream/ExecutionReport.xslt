@@ -464,9 +464,9 @@ position:relative;
     <xsl:param name="traceMode" />
     <xsl:choose>
       <xsl:when test="$traceMode = 'Trace'">
-        <!--<span class="traceMessage">
+        <span class="traceMessage">
           <xsl:value-of select="$text"/>
-        </span>-->
+        </span>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$text"/>
